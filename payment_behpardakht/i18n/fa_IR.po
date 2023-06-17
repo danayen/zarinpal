@@ -1,0 +1,381 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* payment_behpardakht
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20210707\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-09 06:44+0000\n"
+"PO-Revision-Date: 2021-10-09 06:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "%s Transaction Error: (%s) %s"
+msgstr "%s خطای تراکنش: (%s) %s"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Allowable Number Of Pin Tries Exceeded"
+msgstr "تعداد تلاش برای Pin بیش از حد مجاز است"
+
+#. module: payment_behpardakht
+#: model:ir.model.fields.selection,name:payment_behpardakht.selection__payment_acquirer__provider__behpardakht
+msgid "Behpardakht Mellat"
+msgstr "به پرداخت ملت"
+
+#. module: payment_behpardakht
+#: model:ir.model.fields,field_description:payment_behpardakht.field_payment_transaction__behpardakht_refid
+msgid "Behpardakht Reference Id"
+msgstr "شناسه مرجع به پرداخت"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Behpardakht: feedback error: "
+msgstr "خطای به پرداخت بانک ملت: "
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Bill Digit Incorrect"
+msgstr "رقم صورت حساب نادرست است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Bill Organization Not Valid"
+msgstr "سازمان صورت حساب نامعتبر است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Card Not Effective"
+msgstr "کارت قابل اجرا نیست"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Card Switch Internal Error"
+msgstr "خطای داخلی سوئیچ کارت"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Customer Cancellation"
+msgstr "لغو مشتری"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Customer Info: partner_id (%s), partner_name (%s)"
+msgstr "اطلاعات مشتری: partner_id ( %s) ، partner_name ( %s)"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Customer Not Found"
+msgstr "مشتری یافت نشد"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Data Access Exception"
+msgstr "استثنای دسترسی به داده ها"
+
+#. module: payment_behpardakht
+#: model:ir.model.fields,field_description:payment_behpardakht.field_payment_acquirer__display_name
+msgid "Display Name"
+msgstr "نام نمایش داده شده"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Duplicate Order Id"
+msgstr "شناسه سفارش تکراری است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Duplicate Transmission"
+msgstr "انتقال تکراری"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Duplicate Verify"
+msgstr "تأیید تکراری"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Error In Settle"
+msgstr "در تسویه تراکنش خطا رخ داد"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Exceeds Withdrawal Amount Limit"
+msgstr "مبلغ بیش از سقف برداشت می باشد"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Exceeds Withdrawal Frequency Limit"
+msgstr "بیش از حد مجاز فراوانی برداشت است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Expired Card"
+msgstr "کارت منقضی شده"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Format Error"
+msgstr "خطای فرمت"
+
+#. module: payment_behpardakht
+#: model_terms:ir.ui.view,arch_db:payment_behpardakht.acquirer_form_behpardakht
+msgid "How to configure your behpardakht account?"
+msgstr "چگونه می توان حساب کاربری به پرداخت را پیکربندی نمود؟"
+
+#. module: payment_behpardakht
+#: model:ir.model.fields,field_description:payment_behpardakht.field_payment_acquirer__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Incorrect Pin"
+msgstr "پین نادرست است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Invalid Amount"
+msgstr "مبلغ نامعتبر است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Invalid Business Date"
+msgstr "تاریخ کسب و کار نامعتبر است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Invalid Card Number"
+msgstr "شماره کارت نامعتبر است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Invalid IP"
+msgstr "IP نامعتبر است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Invalid Merchant"
+msgstr "فروشنده نامعتبر است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Invalid Response"
+msgstr "پاسخ نامعتبر است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Invalid Transaction"
+msgstr "تراکنش نامعتبر است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Invalid User Or Password"
+msgstr "کاربر و یا رمز عبور نامعتبر است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Issuer Or Switch Is Inoperative"
+msgstr "صادر کننده و یا سوئیچ نامعتبر است"
+
+#. module: payment_behpardakht
+#: model:ir.model.fields,field_description:payment_behpardakht.field_payment_acquirer____last_update
+msgid "Last Modified on"
+msgstr "آخرین ویرایش در"
+
+#. module: payment_behpardakht
+#: model:ir.model.fields,field_description:payment_behpardakht.field_payment_acquirer__bp_password
+msgid "Merchant Password"
+msgstr "رمز عبور فروشنده"
+
+#. module: payment_behpardakht
+#: model:ir.model.fields,help:payment_behpardakht.field_payment_acquirer__bp_terminal_id
+msgid "Merchant Terminal ID"
+msgstr "شناسه پایانه فروشنده"
+
+#. module: payment_behpardakht
+#: model:ir.model.fields,field_description:payment_behpardakht.field_payment_acquirer__bp_username
+msgid "Merchant Username"
+msgstr "نام کاربری فروشنده"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "No Investment Account"
+msgstr "حساب سرمایه گذاری وجود ندارد"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "No Such Issuer"
+msgstr "چنین صادر کننده ای وجود ندارد"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "No Sufficient Funds"
+msgstr "موجودی کافی نیست"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Original Transaction Not Found"
+msgstr "تراکنش اصلی یافت نشد"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Payer Id Is Invalid"
+msgstr "شناسه پرداخت کننده نامعتبر است"
+
+#. module: payment_behpardakht
+#: model:ir.model,name:payment_behpardakht.model_payment_acquirer
+msgid "Payment Acquirer"
+msgstr "درگاه پرداخت"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Payment Digit Incorrect"
+msgstr "رقم پرداختی نادرست است"
+
+#. module: payment_behpardakht
+#: model:ir.model.fields,field_description:payment_behpardakht.field_payment_acquirer__provider
+msgid "Provider"
+msgstr "تأمین کننده"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Received unrecognized status for Behpardakht payment "
+msgstr "وضعیت دریافت شده برای پرداخت به پرداخت ناشناخته است "
+
+#. module: payment_behpardakht
+#: model:ir.model.fields,help:payment_behpardakht.field_payment_transaction__behpardakht_refid
+msgid "Reference of the TX as stored in the acquirer database"
+msgstr "مرجع TX که در پایگاه داده درگاه ذخیره شده"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Refund Transaction Not Found"
+msgstr "تراکنش بازپرداخت یافت نشد"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Sale Transaction Not Found"
+msgstr "تراکنش فروش یافت نشد"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Security Violation"
+msgstr "نقض امنیتی"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Session Timeout"
+msgstr "تایم اوت نشست"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Settle Transaction Not Found"
+msgstr "تراکنش تسویه یافت نشد"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "System Internal Error"
+msgstr "خطای داخلی سیستم"
+
+#. module: payment_behpardakht
+#: model:ir.model.fields,field_description:payment_behpardakht.field_payment_acquirer__bp_terminal_id
+msgid "Terminal Id"
+msgstr "شناسه پایانه"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Transaction Approved"
+msgstr "تراکنش تایید شد"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Transaction Has Been Reversed"
+msgstr "تراکنش معکوس شده است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Transaction Has Been Settled"
+msgstr "تراکنش تسویه شده است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Transaction Has Not Been Settled"
+msgstr "تراکنش تسویه نشده است"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Transaction Not Permitted To Card Holder"
+msgstr "تراکنش برای دارنده کارت مجاز نیست"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Try Count Exceeded"
+msgstr "تعداد دفعاتی که امتحان کردید، بیش از حد مجاز بود"
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/controllers/main.py:0
+#, python-format
+msgid "Validation error occured. Please contact your administrator."
+msgstr "خطای تأیید اعتبار رخ داده است. لطفا با مدیریت تماس بگیرید."
+
+#. module: payment_behpardakht
+#: code:addons/payment_behpardakht/models/payment.py:0
+#, python-format
+msgid "Verify Transaction Not Found"
+msgstr "تراکنش تایید شده یافت نشد"

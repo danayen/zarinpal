@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="payment_iran.payment_acquirer_behpardakht" model="payment.acquirer">
+            <field name="provider">behpardakht</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="view_template_id" ref="behpardakht_form"/>
+            <field name="pre_msg"><![CDATA[<p>You will be redirected to the Behpardakht website after clicking on the payment button.</p>]]></field>
+        </record>
+    </data>
+</odoo>
