@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="payment_acquirer_zarinpal" model="payment.acquirer">
+            <field name="name">ZarinPal</field>
+            <field name="image_128" type="base64" file="payment_zarinpal/static/src/img/zarinpal_icon.png"/>
+            <field name="provider">zarinpal</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="view_template_id" ref="zarinpal_form"/>
+            <field name="payment_icon_ids" eval='[(6, 0, [ref("l10n_ir_payment.payment_icon_shetab")])]'/>
+            <field name="fees_dom_var" eval="1.0"/>
+            <field name="fees_dom_fixed" eval="0.0"/>
+            <field name="fees_int_var" eval="0.0"/>
+            <field name="fees_int_fixed" eval="0.0"/>
+            <field name="fees_dom_limit" eval="30000"/>
+            <field name="fees_active" eval="True"/>
+        </record>
+
+    </data>
+</odoo>
