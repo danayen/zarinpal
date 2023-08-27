@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="payment_icon_pep" model="payment.icon">
+        <field name="name">PEP</field>
+        <field name="image" type="base64" file="l10n_ir_payment/static/img/pep.png"/>
+    </record>
+
+    <record id="payment_icon_bmi" model="payment.icon">
+        <field name="name">BMI</field>
+        <field name="image" type="base64" file="l10n_ir_payment/static/img/bmi.png"/>
+    </record>
+
+    <record id="payment_icon_shetab" model="payment.icon">
+        <field name="name">SHETAB</field>
+        <field name="image" type="base64" file="l10n_ir_payment/static/img/shetab.png"/>
+    </record>
+
+</odoo>
