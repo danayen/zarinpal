@@ -1,0 +1,124 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* payment_zarinpal
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-17 12:53+0000\n"
+"PO-Revision-Date: 2021-08-17 12:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: payment_zarinpal
+#: code:addons/payment_zarinpal/models/payment.py:0
+#, python-format
+msgid "Can't process payment without invoice and/or sale order!"
+msgstr "درخواست پرداخت بدون فاکتور و یا سفارش فروش قابل پردازش نمی‌باشد!"
+
+#. module: payment_zarinpal
+#: model:ir.model.fields,field_description:payment_zarinpal.field_payment_acquirer__display_name
+#: model:ir.model.fields,field_description:payment_zarinpal.field_payment_transaction__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: payment_zarinpal
+#: code:addons/payment_zarinpal/models/payment.py:0
+#, python-format
+msgid "Error occurred in getting token from ZarinPal!"
+msgstr "در دریافت توکن از زرین‌پال خطایی رخ داد!"
+
+#. module: payment_zarinpal
+#: code:addons/payment_zarinpal/models/payment.py:0
+#, python-format
+msgid "Error occurred in verifying transaction from ZarinPal!"
+msgstr "در دریافت تاییدیه از زرین‌پال خطایی رخ داد!"
+
+#. module: payment_zarinpal
+#: model_terms:ir.ui.view,arch_db:payment_zarinpal.acquirer_form_zarinpal
+msgid "How to configure your ZarinPal Payment account?"
+msgstr "چگونه درگاه پرداخت زرین‌پال را تنظیم کنید؟"
+
+#. module: payment_zarinpal
+#: model:ir.model.fields,field_description:payment_zarinpal.field_payment_acquirer__id
+#: model:ir.model.fields,field_description:payment_zarinpal.field_payment_transaction__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: payment_zarinpal
+#: model:ir.model.fields,field_description:payment_zarinpal.field_payment_acquirer____last_update
+#: model:ir.model.fields,field_description:payment_zarinpal.field_payment_transaction____last_update
+msgid "Last Modified on"
+msgstr "آخرین تغییر در"
+
+#. module: payment_zarinpal
+#: model:ir.model.fields,field_description:payment_zarinpal.field_payment_acquirer__zarinpal_merchant_id
+msgid "Merchant ID"
+msgstr "کد درگاه پرداخت"
+
+#. module: payment_zarinpal
+#: model:ir.model,name:payment_zarinpal.model_payment_acquirer
+msgid "Payment Acquirer"
+msgstr "درگاه پرداخت"
+
+#. module: payment_zarinpal
+#: model:ir.model,name:payment_zarinpal.model_payment_transaction
+msgid "Payment Transaction"
+msgstr "تراکنش پرداخت"
+
+#. module: payment_zarinpal
+#: model:ir.model.fields,field_description:payment_zarinpal.field_payment_acquirer__provider
+msgid "Provider"
+msgstr "فراهم‌کننده"
+
+#. module: payment_zarinpal
+#: model:ir.model.fields,field_description:payment_zarinpal.field_payment_acquirer__fees_dom_limit
+msgid "Upper limit for domestic fees"
+msgstr "سقف کارمزد"
+
+#. module: payment_zarinpal
+#: model_terms:payment.acquirer,pending_msg:payment_zarinpal.payment_acquirer_zarinpal
+msgid ""
+"Your payment has been successfully processed but is waiting for approval."
+msgstr "پرداخت شما پردازش گردید ولی منتظر تایید می‌باشد."
+
+#. module: payment_zarinpal
+#: model_terms:payment.acquirer,done_msg:payment_zarinpal.payment_acquirer_zarinpal
+msgid "Your payment has been successfully processed. Thank you!"
+msgstr "پرداخت شما پردازش گردید، با تشکر!"
+
+#. module: payment_zarinpal
+#: model:ir.model.fields.selection,name:payment_zarinpal.selection__payment_acquirer__provider__zarinpal
+#: model:payment.acquirer,name:payment_zarinpal.payment_acquirer_zarinpal
+msgid "ZarinPal"
+msgstr "زرین‌پال"
+
+#. module: payment_zarinpal
+#: model:ir.model.fields,field_description:payment_zarinpal.field_payment_transaction__zarinpal_fee
+msgid "ZarinPal Fee"
+msgstr "کارمزد زرین‌پال"
+
+#. module: payment_zarinpal
+#: model:ir.model.fields,field_description:payment_zarinpal.field_payment_transaction__zarinpal_fee_type
+msgid "ZarinPal Fee Type"
+msgstr "پرداخت کننده کارمزد زرین‌پال"
+
+#. module: payment_zarinpal
+#: model:ir.model.fields,field_description:payment_zarinpal.field_payment_transaction__zarinpal_hashed_card_number
+msgid "ZarinPal Hashed Card Number"
+msgstr "هش شماره کارت"
+
+#. module: payment_zarinpal
+#: model:ir.model.fields,field_description:payment_zarinpal.field_payment_transaction__zarinpal_masked_card_number
+msgid "ZarinPal Masked Card Number"
+msgstr "ماسکه شماره کارت"
+
+#. module: payment_zarinpal
+#: model:ir.model.fields,field_description:payment_zarinpal.field_payment_transaction__zarinpal_tx_ref_id
+msgid "ZarinPal TransactionReferenceID"
+msgstr "شناسه‌ی ارجاع"
